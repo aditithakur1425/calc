@@ -1,0 +1,164 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="A stepper plugin for Bootstrap 4.">
+    <link rel="stylesheet" href="css/bootstrap.min.css" >
+    <link href="css/bootstrap4-toggle.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/bs-stepper.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Calculator</title>
+    <script src="js/jquery.min.js" ></script>
+    <script src="js/bootstrap.min.js" ></script>
+    <script src="js/popper.min.js" ></script>
+   
+    <link rel="stylesheet" href="css/Ketodiet.css"> 
+    <script src="js/bootstrap4-toggle.min.js"></script>
+<script> 
+
+
+</script>
+  </head>
+  <body class="d-flex flex-column min-vh-100 ">
+   <div class="container">
+       
+<!-- second row ends-->
+      <div class="mb-5 p-4 shadow-sm">
+        
+        <div id="stepper2" class="bs-stepper">
+          <div class="bs-stepper-header" role="tablist">
+            <div class="step" data-target="#test-nl-1">
+              <button type="button" class="step-trigger" role="tab" id="stepper2trigger1" aria-controls="test-nl-1">
+                <span class="bs-stepper-circle">
+                  1
+                </span>
+                <span class="bs-stepper-label">First</span>
+              </button>
+            </div>
+           
+            <div class="step" data-target="#test-nl-2">
+              <button type="button" class="step-trigger" role="tab" id="stepper2trigger2" aria-controls="test-nl-2">
+                <span class="bs-stepper-circle">
+                  2
+                </span>
+                <span class="bs-stepper-label">Second</span>
+              </button>
+            </div>
+           
+            <div class="step" data-target="#test-nl-3">
+              <button type="button" class="step-trigger" role="tab" id="stepper2trigger3" aria-controls="test-nl-3">
+                <span class="bs-stepper-circle">
+                 3
+                </span>
+                <span class="bs-stepper-label">Third</span>
+              </button>
+            </div>
+            <div class="step" data-target="#test-nl-4">
+                <button type="button" class="step-trigger" role="tab" id="stepper2trigger4" aria-controls="test-nl-4">
+                  <span class="bs-stepper-circle">
+                   4
+                  </span>
+                  <span class="bs-stepper-label">Fourth</span>
+                </button>
+              </div>
+              <div class="step" data-target="#test-nl-5">
+                <button type="button" class="step-trigger" role="tab" id="stepper2trigger5" aria-controls="test-nl-5">
+                  <span class="bs-stepper-circle">
+                   5
+                  </span>
+                  <span class="bs-stepper-label">Fifth</span>
+                </button>
+              </div>
+              <div class="step" data-target="#test-nl-6">
+                <button type="button" class="step-trigger" role="tab" id="stepper2trigger6" aria-controls="test-nl-6">
+                  <span class="bs-stepper-circle">
+                   6
+                  </span>
+                  <span class="bs-stepper-label">Sixth</span>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+                </button>
+              </div>
+              <mat-horizontal-stepper>
+                <mat-step>
+                   
+                  <div>
+                    <button class="btn btn-primary" matStepperPrevious onclick="stepper2.previous()">Back </button> &nbsp;&nbsp; 
+                    <button class="btn btn-success"   mat-button matStepperNext onclick="stepper2.next()">Next</button>
+                  </div>
+                </mat-step>
+              </mat-horizontal-stepper>
+          </div>
+          <!-- menu ends-->
+          <div class="row main">
+          <div class="bs-stepper-content">
+            <form onSubmit="return false">
+              <div id="test-nl-1" role="tabpanel" class="bs-stepper-pane" aria-labelledby="stepper2trigger1">
+                ZXZX
+                
+              </div>
+              <div id="test-nl-2" role="tabpanel" class="bs-stepper-pane" aria-labelledby="stepper2trigger2">
+                
+               sdfsd
+               
+              </div>
+              <!-- third row-->
+
+              <div id="test-nl-3" role="tabpanel" class="bs-stepper-pane " aria-labelledby="stepper2trigger3">
+               
+                  asd
+
+                
+               
+
+              </div>
+              <!-- fourt row-->
+              <div id="test-nl-4" role="tabpanel" class="bs-stepper-pane " aria-labelledby="stepper2trigger4">
+
+                dfd
+                
+              </div>
+              <!-- fifth row-->
+              <div id="test-nl-5" role="tabpanel" class="bs-stepper-pane " aria-labelledby="stepper2trigger5">
+
+                dsa
+
+                
+              </div>
+              <!-- sixth row-->
+              <div id="test-nl-6" role="tabpanel" class="bs-stepper-pane " aria-labelledby="stepper2trigger6">
+                <button type="submit" class="btn btn-primary mt-5">Zz</button>
+              </div>
+            </form>
+          </div>
+          </div>
+        
+          </div>
+        </div>
+      </div>
+
+      
+    </div>
+</div>
+    <script src="./js/cal.js" ></script>
+    <script src="js/bs-stepper.min.js"></script>
+    <script >
+      
+        var stepper1;
+var stepper2;
+
+
+document.addEventListener('DOMContentLoaded', function () {
+  
+  stepper2 = new Stepper(document.querySelector('#stepper2'), {
+    linear: true
+  })
+  
+ 
+ 
+})
+
+    </script>
+     <script src="js/KetoDiet.js"></script>
+  </body>
+</html>

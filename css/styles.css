@@ -1,0 +1,22 @@
+body{background-color:  #003366 ;}
+.container{background-color: #e6f5ff;margin-top: 35px;}
+div.a {font-size: 350%;  text-align: center; color:25359b ; font: weight 700; text-decoration: underline;
+       
+
+padding-top:3%;
+padding-right:15%;
+padding-bottom:6%;
+padding-left: 10%;}
+
+ 
+span.bs-stepper-circle {
+  background-color: #4CAF50; /* Green */
+} span.bs-stepper-circle{border-radius: 50%;}
+
+ .main{
+   min-height: 400px;
+   
+ }
+ .bs-stepper-content{
+margin:  auto;
+ }
